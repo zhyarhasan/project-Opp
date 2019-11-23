@@ -1,0 +1,25 @@
+package opertion;
+import java.util.*;
+
+public class Rectangle implements Shapes{
+Scanner x=new Scanner(System.in);         
+    double len=x.nextDouble();
+    double wid=x.nextDouble();
+    @Override
+    public void lenght(double a) {
+       len=a;
+        System.out.println("***************************");
+    }
+
+    @Override
+    public void width(double a) {
+        wid=a;
+        
+    }
+
+   
+    public void println(){
+        System.out.println(len*wid);
+        System.out.println("**************************");
+    }
+}

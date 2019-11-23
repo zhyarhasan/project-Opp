@@ -1,0 +1,23 @@
+package opertion;
+import java.util.*;
+
+public class Opertion {
+ Scanner x=new Scanner(System.in);
+        public static void main(String[] args) {
+        Circle p=new Circle();
+        Rectangle w=new Rectangle();
+        Triangle q=new Triangle();
+        
+        
+        p.print();
+           
+       
+        
+        w.println();
+        
+        
+        q.printlne();
+        
+    }
+    
+}
